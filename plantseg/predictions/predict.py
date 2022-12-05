@@ -6,7 +6,8 @@ import h5py
 import torch
 from pytorch3dunet.datasets.utils import get_test_loaders
 from pytorch3dunet.unet3d import utils
-from pytorch3dunet.unet3d.model import get_model
+
+from plantseg.models import get_model
 from plantseg.pipeline import gui_logger
 from plantseg.predictions.utils import create_predict_config
 
